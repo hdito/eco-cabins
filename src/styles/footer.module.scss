@@ -1,0 +1,21 @@
+.footer {
+  padding: 0 50px;
+  height: 92px;
+  background-color: var(--dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+  &__right-link-block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__link {
+    opacity: 0.6;
+    font-weight: 500;
+    font-size: 12px;
+  }
+}

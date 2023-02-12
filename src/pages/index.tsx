@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Innovation } from "@/components/Innovation";
 import { Materials } from "@/components/Materials";
@@ -17,6 +18,7 @@ export default function Home() {
       <Materials />
       <Innovation />
       <USP />
+      <Footer />
     </>
   );
 }
