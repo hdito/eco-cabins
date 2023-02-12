@@ -1,0 +1,66 @@
+.hero {
+  background-image: url("/hero-background.png");
+  background-color: var(--dark-green-bg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding-bottom: 200px;
+
+  &__social-links {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    translate: 0 -50%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  &__social-links__link {
+    writing-mode: vertical-lr;
+  }
+
+  &__header {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 12px;
+  }
+
+  &__description {
+    max-width: 440px;
+
+    &__text {
+      font-size: 30px;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  &__player {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    &__image {
+      box-shadow: 0px 2px 20px rgba(255, 0, 0, 0.5);
+    }
+  }
+
+  &__square {
+    position: absolute;
+    height: 37px;
+    background-color: white;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+  }
+}

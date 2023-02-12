@@ -1,1 +1,8 @@
 @import "./preflight";
+
+:root {
+  --light-grey: #646d70;
+  --grey: #606b74;
+  --dark-green: #222f33;
+  --dark-green-bg: #26353b;
+}
