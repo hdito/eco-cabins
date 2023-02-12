@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Hero";
+import { Materials } from "@/components/Materials";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <Materials />
     </>
   );
 }
