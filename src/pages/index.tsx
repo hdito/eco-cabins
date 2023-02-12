@@ -2,6 +2,7 @@ import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Innovation } from "@/components/Innovation";
 import { Materials } from "@/components/Materials";
+import { Signature } from "@/components/Signture";
 import { USP } from "@/components/USP";
 import Head from "next/head";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Innovation />
       <USP />
       <Footer />
+      <Signature />
     </>
   );
 }

@@ -1,0 +1,17 @@
+.signature {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+
+  &__link {
+    color: #dd8800;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
