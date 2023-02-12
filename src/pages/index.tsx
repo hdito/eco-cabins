@@ -1,6 +1,7 @@
 import { Hero } from "@/components/Hero";
 import { Innovation } from "@/components/Innovation";
 import { Materials } from "@/components/Materials";
+import { USP } from "@/components/USP";
 import Head from "next/head";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Materials />
       <Innovation />
+      <USP />
     </>
   );
 }
