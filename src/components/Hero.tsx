@@ -23,7 +23,7 @@ export const Hero = () => {
   return (
     <div className={heroStyles.hero}>
       <header className={headerStyles.header}>
-        <a href="/">
+        <a href="#">
           <Image src="/logo.svg" width={135} height={25} alt="EcoCabins" />
         </a>
         <nav>
