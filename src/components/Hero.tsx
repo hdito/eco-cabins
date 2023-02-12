@@ -2,8 +2,8 @@ import headerStyles from "@/styles/header.module.scss";
 import heroStyles from "@/styles/hero.module.scss";
 import Image from "next/image";
 import { CustomLink, LinkProps } from "./CustomLink";
-import { merriweather } from "./merriweather";
-import { rubik } from "./rubik";
+import { merriweather } from "@/fonts/merriweather";
+import { rubik } from "@/fonts/rubik";
 
 export const Hero = () => {
   const navBarSecondaryLinks: LinkProps[] = [

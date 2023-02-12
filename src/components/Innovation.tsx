@@ -1,6 +1,6 @@
 import innovationStyles from "@/styles/innovation.module.scss";
-import { merriweather } from "./merriweather";
-import { rubik } from "./rubik";
+import { merriweather } from "@/fonts/merriweather";
+import { rubik } from "@/fonts/rubik";
 
 export const Innovation = (): JSX.Element => {
   return (

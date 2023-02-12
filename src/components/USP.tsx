@@ -1,8 +1,8 @@
 import Image from "next/image";
 import homeImg from "../../public/home.png";
 import uspStyles from "@/styles/usp.module.scss";
-import { rubik } from "./rubik";
-import { merriweather } from "./merriweather";
+import { rubik } from "@/fonts/rubik";
+import { merriweather } from "@/fonts/merriweather";
 
 export const USP = (): JSX.Element => {
   const uspContent: { title: string; description: string }[] = [

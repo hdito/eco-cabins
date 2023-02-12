@@ -1,6 +1,6 @@
 import Image from "next/image";
 import footerStyles from "@/styles/footer.module.scss";
-import { rubik } from "./rubik";
+import { rubik } from "@/fonts/rubik";
 
 export const Footer = (): JSX.Element => {
   return (

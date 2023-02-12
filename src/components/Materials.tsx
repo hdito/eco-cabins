@@ -2,8 +2,8 @@ import Image from "next/image";
 import materialsImg from "../../public/materials.png";
 import { CustomLink } from "./CustomLink";
 import materialsStyles from "@/styles/materials.module.scss";
-import { merriweather } from "./merriweather";
-import { rubik } from "./rubik";
+import { merriweather } from "@/fonts/merriweather";
+import { rubik } from "@/fonts/rubik";
 
 export const Materials = (): JSX.Element => {
   return (

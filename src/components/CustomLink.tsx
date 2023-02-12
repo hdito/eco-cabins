@@ -1,5 +1,5 @@
 import linkStyles from "@/styles/link.module.scss";
-import { rubik } from "./rubik";
+import { rubik } from "@/fonts/rubik";
 
 export interface LinkProps {
   url: string;
