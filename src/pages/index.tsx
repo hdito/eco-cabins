@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Hero";
+import { Innovation } from "@/components/Innovation";
 import { Materials } from "@/components/Materials";
 import Head from "next/head";
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Materials />
+      <Innovation />
     </>
   );
 }
